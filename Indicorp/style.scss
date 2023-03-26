@@ -1,0 +1,371 @@
+*{
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F3F3F3;
+  max-width: 1440px;
+  
+}
+
+@font-face {
+  font-family: Regular;
+  src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+
+.touchSection{
+  position: absolute;
+  height: 800px;
+
+&__get{
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 108px;
+  font-family: Regular;
+  color: rgb(2, 2, 39);
+  line-height: 70px;
+}
+
+ .infor p{
+  font-size: 14px;
+  line-height: 20px;
+  width: 550px;
+  color: #737373;
+}
+
+.thre{
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-left: 180px;
+  display: flex;
+  align-items: center;
+
+
+&__contactPeace{
+  background-color: white;
+  width: 330px;
+  height: 370px;
+  margin-top: 20px;
+}
+
+.telep{
+  margin-left: 130px;
+  margin-top: 37px;
+  width: 62px;
+  height: 62px;
+}
+
+.first{
+  margin-left: 60px;
+  font-family: Regular;
+}
+
+.secondd{
+  margin-left: 80px;
+  color: white;
+  font-family: Regular;
+}
+
+.second{
+  margin-left: 80px;
+  font-family: Regular;
+}
+
+.threee{
+  margin-left: 110px;
+  color: white;
+  font-family: Regular; 
+}
+
+.three{
+  margin-left: 110px;
+  font-family: Regular;
+}
+
+button{
+  width: 160px;
+  height: 44px;
+  margin-left: 90px;
+  border-color: #FFA62B;;
+  background-color: white;
+  color: #FFA62B;
+  font-family: Regular;
+  font-size: 17,72px;
+}
+
+.sub{
+  color: white;
+  font-family: Regular; 
+}
+
+.location{
+  background-color: #252B42;
+  width: 350px;
+  height: 420px;
+  
+
+  .locat{
+    margin-left: 130px;
+    margin-top: 37px;
+    width: 62px;
+    height: 62px;
+    position: absolute;
+
+    &__vect{
+    position: relative;
+    top: 47px;
+    margin-top: 0;
+    margin-left: 17px;
+    width: 25px;
+    height: 25px;
+  }
+  
+  }
+  
+  .first{
+    margin-left: 60px;
+    width: 221px;
+    height: 24px;
+    color: white;
+    margin-top: 96px;
+  }
+  
+  .second{
+    margin-left: 0px;
+    width: 181px;
+    height: 24px;
+  }
+  
+  .three{
+    margin-top: 10px;
+    margin-left: 115px;
+    width: 103px;
+    height: 24px;
+  }
+  
+  button{
+    font-size: 14.72px;
+    width: 160px;
+    height: 44px;
+    margin-left: 90px;
+    border-color: #fff;;
+    background-color: #252B42;
+  }
+}
+
+button:hover{
+  cursor: pointer;
+ transform: scale(1.09);
+  transition: all 3s;
+}
+
+.telegramp{
+  background-color: white;
+  width: 330px;
+  height: 370px;
+  margin-top: 20px; 
+}
+}
+}
+
+//------------------------------------responsive--------------------------------------
+
+@media only screen and ( max-width:1201px ) {
+ .touchSection{
+  position: absolute;
+  width: 750px;
+  height: 800px;
+
+  .thre{
+  margin-left: 0;
+}
+  &__get{
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 368px;
+    font-family: Regular;
+    color: rgb(2, 2, 39);
+    line-height: 70px;
+  }
+} 
+}
+
+@media only screen and ( max-width:993px ) {
+  .touchSection{
+    position: absolute;
+    width: 650px;
+    height: 800px;
+      
+    &__get{
+      margin-left: 230px;
+    }
+
+    .thre{
+      margin-left: 0;
+    }
+  }
+}
+
+@media only screen and ( max-width:992px ) {
+  .touchSection{
+    position: absolute;
+    width: 650px;
+    height: 800px;
+      
+    &__get{
+      margin-left: 250px;
+    }
+
+    .thre{
+      margin-left: 0;
+    }
+  }
+}
+
+@media only screen and ( max-width:767px ) {
+  .touchSection{
+    
+    &__get p{
+     line-height: 25px;
+     width: 360px;
+     margin-left: 50px;
+    }
+ 
+     &__get h1{
+       margin-left: 50px;
+       font-size: 50px;
+     }
+     &--infor p{
+       width: 7px;
+       height: 10px;
+       font-size: 12px;
+       text-align: center;
+       line-height: 3px;
+     }
+   }
+   
+   
+   .thre{
+    display: grid;
+    
+    &__contactPeace{
+     background-color: white;
+     width: 530px;
+     height: 670px;
+     margin-top: 0;
+     margin-left: 310px;
+   }
+ 
+    .location{
+     position: absolute;
+     top: 750px;
+     left: 310px;
+    }
+ 
+    .telegramp{
+     position: absolute;
+     top: 1240px;
+     left: 310px;
+    }
+   }
+}
+
+@media only screen and ( max-width:768px ) {
+  .touchSection{
+    
+    &__get p{
+     line-height: 25px;
+     width: 360px;
+     margin-left: 50px;
+    }
+ 
+     &__get h1{
+       margin-left: 50px;
+       font-size: 50px;
+     }
+     &--infor p{
+       width: 7px;
+       height: 10px;
+       font-size: 12px;
+       text-align: center;
+       line-height: 3px;
+     }
+   }
+   
+   
+   .thre{
+    display: grid;
+    
+    &__contactPeace{
+     background-color: white;
+     width: 530px;
+     height: 670px;
+     margin-top: 0;
+     margin-left: 310px;
+   }
+ 
+    .location{
+     position: absolute;
+     top: 750px;
+     left: 310px;
+    }
+ 
+    .telegramp{
+     position: absolute;
+     top: 1240px;
+     left: 310px;
+    }
+   }
+}
+
+@media only screen and ( max-width:568px ) {
+  
+  .touchSection{
+    
+   &__get p{
+    line-height: 25px;
+    width: 360px;
+    margin-left: 50px;
+   }
+
+    &__get h1{
+      margin-left: 50px;
+      font-size: 50px;
+    }
+    &--infor p{
+      width: 7px;
+      height: 10px;
+      font-size: 12px;
+      text-align: center;
+      line-height: 3px;
+    }
+  }
+  
+  
+  .thre{
+   display: grid;
+   
+   &__contactPeace{
+    background-color: white;
+    width: 530px;
+    height: 670px;
+    margin-top: 0;
+    margin-left: 310px;
+  }
+
+   .location{
+    position: absolute;
+    top: 750px;
+    left: 310px;
+   }
+
+   .telegramp{
+    position: absolute;
+    top: 1240px;
+    left: 310px;
+   }
+  }
+}
